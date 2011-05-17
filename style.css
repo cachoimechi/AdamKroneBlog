@@ -1,0 +1,347 @@
+/*
+Theme Name: Adam Krone Blog
+Theme URI: http://adamkrone.com
+Description: Official theme for adamkrone.com
+Version 1.0
+Author: Adam Krone
+Author URI: http://adamkrone.com
+Tags: simple, clean, typography
+*/
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #CCC;
+    margin:3px 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* 
+ * Primary
+ * Author
+ * Styles
+ */
+ 
+ 	/* Text */
+	
+	h1 {
+		font-size: 100px;
+		font-weight: normal;
+		margin: 5px 10px;
+		color: #333;
+	}
+	
+	h2 {
+		font-size: 30px;
+		font-weight: normal;
+		margin: 5px 10px;
+		color: #A00;
+	}
+	
+	h3 {
+		font-size: 22px;
+		color: #A00;
+		font-weight: normal;
+	}
+	
+	h4 {
+		margin: 5px 10px;
+		margin-bottom: 12px;
+		font-size: 25px;
+		font-weight: normal;
+		color: #A00;
+	}
+	
+	h5 {
+		float: left;
+		width: 600px;
+		margin-left: 10px;
+		font-size: 25px;
+		font-weight: normal;
+		color: #A00;
+	}
+	
+	p {
+		margin: 5px 10px;
+		color: #777;
+		text-align: justify;
+		line-height: 25px;
+	}
+	
+	a {
+		text-decoration: none;
+		line-height: 30px;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+	}
+	
+	strong {
+		color: #A00;
+	}	
+ 
+ 	/* Layout */
+ 
+ 	div#container {
+ 		width: 960px;
+ 		margin: 20px auto;
+ 		overflow: hidden;
+ 	}
+ 	
+ 	header {
+ 		border-bottom: 1px solid #CCC;
+ 		margin-bottom: 10px;
+ 	}
+ 	
+ 	div#sidebar {
+ 		float: left;
+ 		width: 140px;
+ 		margin: 10px;
+ 		text-align: left;
+ 	}
+ 	
+ 	div#nav ul {
+ 		list-style: none;
+ 		margin-bottom: 10px;
+ 		text-align: center;
+ 	}
+ 	
+ 	div#nav ul li {
+ 		border-top: 1px solid #CCC;
+ 		padding: 3px 0;
+ 	}
+ 	
+ 	div#nav ul li:last-child {
+ 		border-bottom: 1px solid #CCC;
+ 	}
+ 	
+ 	div#nav ul li a {
+ 		color: #777;
+ 		text-decoration: none;
+ 		font-size: 25px;
+ 	}
+ 	
+ 	div#nav ul li a:hover, div#nav ul li a.selected, div#nav ul li.current_page_item a {
+ 		color: #A00;
+ 	}
+ 	
+ 	div#main {
+ 		float: left;
+ 		width: 800px;
+ 		margin-bottom: 20px;
+ 	}
+ 	
+ 	article {
+ 		overflow: hidden;
+ 		margin-bottom: 15px;
+ 		padding-bottom: 15px;
+ 	}
+ 	
+ 	article:last-child {
+ 		border-bottom: none;
+ 	}
+ 	
+ 	div.meta {
+ 		float: left;
+ 		width: 200px;
+ 		overflow: hidden;
+ 	}
+ 	
+ 	div.meta p {
+ 		text-align: right;
+ 		color: #999;
+ 	}
+ 	
+ 	div.meta span.date {
+ 		color: #333;
+ 	}
+ 	
+ 	div.meta span.category a {
+ 		color: #333;
+ 		text-decoration: none;
+ 	}
+ 	
+ 	div.meta span.category a:hover {
+ 		text-decoration: underline;
+ 	}
+ 	
+ 	div.meta p.tags a {
+ 		color: #333;
+ 		text-decoration: none;
+ 	}
+ 	
+ 	div.meta p.tags a:hover {
+ 		text-decoration: underline;
+ 	}
+ 	
+ 	div.text {
+ 		float: left;
+ 		width: 600px;
+ 	}
+ 	
+ 	div.text p {
+ 		line-height: 30px;
+ 		margin-bottom: 15px;
+ 	}
+ 	
+ 	div.text a {
+ 		color: #A00;
+ 	}
+ 	
+ 	div.text img {
+ 		display: block;
+ 		margin: auto;
+ 	}
+ 	
+ 	div.text img#sig {
+ 		margin: 0;
+ 		margin-bottom: 30px;
+ 	}
+ 	
+ 	div.adsense {
+ 		width: 468px;
+ 		margin: auto;
+ 	}
+ 	 		
+ 	footer {
+ 		clear: both;
+ 		margin-top: 20px;
+ 		border-top: 1px solid #CCC;
+ 		overflow: hidden;
+ 	}
+ 	
+ 	footer div#badges {
+ 		width: 360px;
+ 		float: left;
+ 	}
+ 	
+ 	footer div#badges img.icon {
+ 		width: 32px;
+ 		height: 32px;
+ 		float: right;
+ 		margin: 10px;
+ 	}
+ 	
+ 	footer div#badges img {
+ 		margin: 10px;
+ 		float: right;
+ 	}
+ 	
+ 	footer div#badges p {
+ 		margin: 10px 10px;
+ 		float: right;
+ 	}
+ 	
+ 	div#about {
+ 		float: left;
+ 		width: 600px;
+ 		margin-left: 0px;
+ 		margin-top: 10px;
+ 		overflow: hidden;
+ 	}
+ 	
+ 	div#about p {
+ 		font-size: 14px;
+ 	}
+ 	
+ 	div#about img {
+ 		float: left;
+ 		margin: 0 10px;
+ 		margin-top: 5px;
+ 	}
