@@ -66,6 +66,11 @@
 				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 				<?php endif; ?>
 				
+				<div id="next_prev">
+					<?php previous_posts_link("<< Newer Entires"); ?>
+					<?php next_posts_link("Older Entries >>"); ?>
+				</div>
+				
 				<!-- End Post -->
 				
 			</div>
