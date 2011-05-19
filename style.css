@@ -289,6 +289,11 @@ input, select {
  		margin: auto;
  	}
  	
+ 	div.text iframe {
+ 		display: block;
+ 		margin: auto;
+ 	}
+ 	
  	div.text img#sig {
  		margin: 0;
  		margin-bottom: 30px;
