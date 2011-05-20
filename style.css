@@ -192,7 +192,7 @@ input, select {
  	div#sidebar {
  		float: left;
  		width: 140px;
- 		margin: 10px;
+ 		margin: 5px 10px;
  		text-align: left;
  	}
  	
@@ -203,12 +203,19 @@ input, select {
  	}
  	
  	div#nav ul li {
- 		border-top: 1px solid #CCC;
+ 		border-left: 8px solid #CCC;
  		padding: 3px 0;
+ 		margin: 3px 0;
+ 		-moz-box-shadow: 3px 3px 10px #DDD; 
+  		-webkit-box-shadow: 3px 3px 10px #DDD; 
+          box-shadow: 3px 3px 10px #DDD; 
  	}
  	
- 	div#nav ul li:last-child {
- 		border-bottom: 1px solid #CCC;
+ 	div#nav ul li:hover {
+ 		border-left: 8px solid #A00;
+ 		-moz-box-shadow: 3px 3px 10px #AAA; 
+  		-webkit-box-shadow: 3px 3px 10px #AAA; 
+          box-shadow: 3px 3px 10px #AAA; 
  	}
  	
  	div#nav ul li a {
@@ -220,6 +227,23 @@ input, select {
  	div#nav ul li a:hover, div#nav ul li a.selected, div#nav ul li.current_page_item a {
  		color: #A00;
  	}
+ 	
+ 	div#widgets {
+ 		padding: 10px;
+ 	}
+ 	
+ 	div#widgets ul {
+ 		list-style-type: none;
+ 	}
+ 	
+ 	div#widgets a {
+ 		color: #777;
+ 	}
+ 	
+ 	div#widgets a:hover {
+ 		color: #333;
+ 	}
+ 	
  	
  	div#main {
  		float: left;
