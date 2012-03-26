@@ -140,8 +140,8 @@ input, select {
 	}
 	
 	h4 {
-		margin: 5px 10px;
-		margin-bottom: 12px;
+		margin: 10px;
+		margin-bottom: 5px;
 		font-size: 25px;
 		font-weight: normal;
 		color: #A00;
@@ -161,12 +161,13 @@ input, select {
 		color: #333;
 		text-align: justify;
 		line-height: 25px;
+		font-family: minion-pro-1,minion-pro-2,sans-serif;
+
 	}
 	
 	a {
 		text-decoration: none;
 		line-height: 30px;
-		font-family: ff-enzo-web-1, ff-enzo-web-2;
 	}
 	
 	a:hover {
@@ -319,10 +320,11 @@ input, select {
  	}
  	
  	div.text p {
- 		line-height: 30px;
+ 		line-height: 27px;
  		margin-bottom: 15px;
- 		font-family: FF Enzo Web;
- 		font-size: 17px;
+ 		font-family: minion-pro-1,minion-pro-2,sans-serif;
+ 		font-size: 16px;
+ 		color: #555;
  	}
  	
  	div.text a {

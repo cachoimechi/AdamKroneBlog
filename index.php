@@ -59,9 +59,8 @@
   				</div>
   				<a href="http://www.jdoqocy.com/click-5326417-10868522?url=http%3A%2F%2Fwww.dickblick.com%2F" target="_top">
 <img src="http://www.lduhtrp.net/image-5326417-10868522" width="125" height="125" alt="www.dickblick.com" border="0"/></a>
-				<a href="http://www.campnanowrimo.org">
-				<img src="<?php bloginfo('template_url'); ?>/img/campnano2011.png" alt="Adam Krone Logo">
-				<script type="text/javascript" language="javascript" src="http://www.anrdoezrs.net/placeholder-5444513?url=http%3A%2F%2Fstore.digitalriver.com%2Fstore%3FAction%3DDisplayProductDetailsPage%26Locale%3Den_US%26SiteID%3Dadbevlus%26productID%3D225368600&imgurl=http%3A%2F%2Fdrh.img.digitalriver.com%2FDRHM%2FStorefront%2FCompany%2Fadbevlus%2Fimages%2Fproduct%2Fdetail%2Fmaster_collection_cs55_now_available_150x150.jpg&target=_top&mouseover=N"></script>		
+				<script type="text/javascript" language="javascript" src="http://www.anrdoezrs.net/placeholder-5444513?url=http%3A%2F%2Fstore.digitalriver.com%2Fstore%3FAction%3DDisplayProductDetailsPage%26Locale%3Den_US%26SiteID%3Dadbevlus%26productID%3D225368600&imgurl=http%3A%2F%2Fdrh.img.digitalriver.com%2FDRHM%2FStorefront%2FCompany%2Fadbevlus%2Fimages%2Fproduct%2Fdetail%2Fmaster_collection_cs55_now_available_150x150.jpg&target=_top&mouseover=N"></script>
+				
 			</div>
 			
 			<div id="main">
@@ -83,19 +82,20 @@
 						<h4 class="tk-ff-enzo-web"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
 						<p><?php the_content(); ?></p>
 						<img id="sig" src="<?php bloginfo('template_url'); ?>/img/sig.jpg" alt="Adam Krone's signature">
-						<!-- Begin: adBrite, Generated: 2011-06-09 1:11:41  -->
+						
+						<!-- Begin: adBrite, Generated: 2012-01-30 20:49:15  -->
 						<script type="text/javascript">
-							var AdBrite_Title_Color = '0000FF';
-							var AdBrite_Text_Color = '000000';
-							var AdBrite_Background_Color = 'FFFFFF';
-							var AdBrite_Border_Color = 'CCCCCC';
-							var AdBrite_URL_Color = '008000';
-							try{var AdBrite_Iframe=window.top!=window.self?2:1;var AdBrite_Referrer=document.referrer==''?document.location:document.referrer;AdBrite_Referrer=encodeURIComponent(AdBrite_Referrer);}catch(e){var AdBrite_Iframe='';var AdBrite_Referrer='';}
-							adNum++;
+						var AdBrite_Title_Color = '0000FF';
+						var AdBrite_Text_Color = '000000';
+						var AdBrite_Background_Color = 'FFFFFF';
+						var AdBrite_Border_Color = 'CCCCCC';
+						var AdBrite_URL_Color = '008000';
+						try{var AdBrite_Iframe=window.top!=window.self?2:1;var AdBrite_Referrer=document.referrer==''?document.location:document.referrer;AdBrite_Referrer=encodeURIComponent(AdBrite_Referrer);}catch(e){var AdBrite_Iframe='';var AdBrite_Referrer='';}
 						</script>
 						<span style="white-space:nowrap;"><script type="text/javascript">document.write(String.fromCharCode(60,83,67,82,73,80,84));document.write(' src="http://ads.adbrite.com/mb/text_group.php?sid=1955328&zs=3436385f3630&ifr='+AdBrite_Iframe+'&ref='+AdBrite_Referrer+'" type="text/javascript">');document.write(String.fromCharCode(60,47,83,67,82,73,80,84,62));</script>
 						<a target="_top" href="http://www.adbrite.com/mb/commerce/purchase_form.php?opid=1955328&afsid=1"><img src="http://files.adbrite.com/mb/images/adbrite-your-ad-here-banner.gif" style="background-color:#CCCCCC;border:none;padding:0;margin:0;" alt="Your Ad Here" width="11" height="60" border="0" /></a></span>
 						<!-- End: adBrite -->
+					
 					</div>
 				</article>
 				
@@ -139,5 +139,18 @@
 			</footer>
 		</div>
 		
+	<!-- VIGLINK -->	
+	<script type="text/javascript">
+	  var vglnk = { api_url: '//api.viglink.com/api',
+	                key: '81556d9a30498470a419d13b55265c8b' };
+	
+	  (function(d, t) {
+	    var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+	    s.src = ('https:' == document.location.protocol ? vglnk.api_url :
+	             '//cdn.viglink.com/api') + '/vglnk.js';
+	    var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+	  }(document, 'script'));
+	</script>
+
 	</body>
 </html>
